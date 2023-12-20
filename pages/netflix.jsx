@@ -27,15 +27,16 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I've developed a Next.js application hosted on Vercel that showcases
-            my proficiency in various technologies. The app incorporates user
-            authentication using Next Auth, providing a secure and personalized
-            experience. Inspired by the Netflix interface, the application
-            features modal popups for an engaging user experience and allows
-            seamless video playback. Additionally, users can add movies to their
-            favorites, a functionality seamlessly implemented with Redux for
-            app-wide state management. The backend is powered by Prisma as the
-            ORM, seamlessly integrated with MongoDB to store user data securely
+            I&apos;ve developed a Next.js application hosted on Vercel that
+            showcases my proficiency in various technologies. The app
+            incorporates user authentication using Next Auth, providing a secure
+            and personalized experience. Inspired by the Netflix interface, the
+            application features modal popups for an engaging user experience
+            and allows seamless video playback. Additionally, users can add
+            movies to their favorites, a functionality seamlessly implemented
+            with Redux for app-wide state management. The backend is powered by
+            Prisma as the ORM, seamlessly integrated with MongoDB to store user
+            data securely
           </p>
           <div className="mt-10">
             <h4 className="text-blue-900">Test User Account</h4>

@@ -27,7 +27,7 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            "I spearheaded the development of a comprehensive website that
+            I spearheaded the development of a comprehensive website that
             aggregates global cyber threats from diverse sources, categorizes
             them, and presents detailed information about threat actors in a
             centralized platform. Employing React, I crafted a dynamic web
@@ -42,7 +42,7 @@ const crypto = () => {
             modern Single Page Application (SPA) architecture implemented with
             React Router v6, enhancing navigation. For seamless frontend-backend
             communication, I developed RESTful APIs using AWS Lambda,
-            contributing to a smooth and responsive user interface."
+            contributing to a smooth and responsive user interface.
           </p>
           <a
             href="https://github.com/fireclint/crypto-react-firebase"

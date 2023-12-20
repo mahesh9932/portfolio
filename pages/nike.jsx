@@ -36,12 +36,12 @@ const property = () => {
             swift loading times, allowing you to explore exclusive releases,
             limited editions, and special offers effortlessly. Discover the rich
             narrative of Nike, from its iconic swoosh logo to groundbreaking
-            sports technology, and stay connected to the brand's legacy. With
-            seamless integration of React components, our landing page adapts
-            flawlessly across devices, providing an optimal viewing experience.
-            Welcome to the forefront of athletic and lifestyle excellence – the
-            Nike landing page, where style meets performance, and innovation
-            intersects with passion.
+            sports technology, and stay connected to the brand&apos;s legacy.
+            With seamless integration of React components, our landing page
+            adapts flawlessly across devices, providing an optimal viewing
+            experience. Welcome to the forefront of athletic and lifestyle
+            excellence – the Nike landing page, where style meets performance,
+            and innovation intersects with passion.
           </p>
           <a
             href="https://github.com/mahesh9932/nike"
