@@ -23,18 +23,23 @@ const Projects = () => {
             tech="Next JS"
             username="test@gmail.com"
             password="test123"
+            liveUrl="https://netflix-clone-nine-azure.vercel.app/"
+            GithubUrl="https://github.com/mahesh9932/netflix-clone"
           />
           <ProjectItem
             title="Threat Analyzer"
             backgroundImg={Julie}
             projectUrl="/julie"
             tech="React JS"
+            liveUrl="https:lab.julies.io"
           />
           <ProjectItem
             title="Nike Landing"
             backgroundImg={nikeImg}
             projectUrl="/nike"
             tech="React JS"
+            liveUrl="https://nike-landing-page-nine.vercel.app/"
+            GithubUrl="https://github.com/mahesh9932/nike"
           />
           {/* <ProjectItem
             title="Twitch UI"

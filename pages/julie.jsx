@@ -44,11 +44,7 @@ const crypto = () => {
             communication, I developed RESTful APIs using AWS Lambda,
             contributing to a smooth and responsive user interface.
           </p>
-          <a
-            href="https://github.com/fireclint/crypto-react-firebase"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="" target="_blank" rel="noreferrer">
             <button
               className="px-8 py-2 mt-4 mr-8 bg-gray-400 bg-none "
               disabled

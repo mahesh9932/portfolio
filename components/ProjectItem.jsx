@@ -6,7 +6,10 @@ const ProjectItem = ({
   title,
   backgroundImg,
   tech,
+  liveUrl,
+  GithubUrl,
   projectUrl,
+
   username,
   password,
 }) => {
@@ -23,11 +26,26 @@ const ProjectItem = ({
             {title}
           </h3>
           <p className="pb-4 pt-2 text-white text-center">{tech}</p>
-          <Link href={projectUrl}>
-            <p className=" px-2 text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
-              More Info
-            </p>
-          </Link>
+          <div className="flex gap-1 justify-center flex-wrap">
+            <Link href={liveUrl}>
+              <p className=" px-2 text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-sm md:text-lg cursor-pointer">
+                Demo
+              </p>
+            </Link>
+            {GithubUrl && (
+              <Link href={GithubUrl}>
+                <p className=" px-2 text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-sm md:text-lg cursor-pointer">
+                  Github
+                </p>
+              </Link>
+            )}
+
+            <Link href={projectUrl}>
+              <p className=" px-2 text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-sm md:text-lg cursor-pointer">
+                MoreInfo
+              </p>
+            </Link>
+          </div>
         </div>
         {username && password && (
           <div className="text-white text-center hidden  group-hover:flex flex-col items-center justify-center bg-black rounded-r-xl p-2 basis-[70%]">
