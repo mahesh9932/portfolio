@@ -17,6 +17,8 @@ import GraphQL from "../public/assets/skills/graphql.png";
 import Redux from "../public/assets/skills/redux.png";
 import Recoil from "../public/assets/skills/recoil.png";
 import TypeScript from "../public/assets/skills/typescript.png";
+import DockerImg from "../public/assets/skills/docker.png";
+import SocketioImg from "../public/assets/skills/socketio.svg";
 
 const Skills = () => {
   return (
@@ -201,6 +203,28 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>AWS</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={DockerImg} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Docker</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={SocketioImg} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>SocketIO</h3>
               </div>
             </div>
           </div>

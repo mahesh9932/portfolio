@@ -9,9 +9,10 @@ const ProjectItem = ({
   liveUrl,
   GithubUrl,
   projectUrl,
-
   username,
   password,
+  username2,
+  password2,
 }) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
@@ -49,16 +50,29 @@ const ProjectItem = ({
         </div>
         {username && password && (
           <div className="text-white text-center hidden  group-hover:flex flex-col items-center justify-center bg-black rounded-r-xl p-2 basis-[70%]">
-            <h3 className="text-xl mb-4 border-b-2">Test User</h3>
-            <p className="">
-              <span className="text-lg font-semibold">Username:</span>{" "}
+            <h3 className="text-lg mb-2 border-b-2">Test User</h3>
+            <p className="text-sm">
+              <span className="text-sm font-semibold">Username:</span>{" "}
               {username}
             </p>
-            <p>
+            <p className="text-sm">
               {" "}
-              <span className="text-lg font-semibold">Password:</span>{" "}
+              <span className="text-sm font-semibold">Password:</span>{" "}
               {password}
             </p>
+            {username2 && password2 && (
+              <>
+                <p className="text-sm">
+                  <span className="text-sm font-semibold">Username:</span>{" "}
+                  {username2}
+                </p>
+                <p className="text-sm">
+                  {" "}
+                  <span className="text-sm font-semibold">Password:</span>{" "}
+                  {password2}
+                </p>
+              </>
+            )}
           </div>
         )}
       </div>

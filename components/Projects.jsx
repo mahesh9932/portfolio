@@ -4,7 +4,7 @@ import React from "react";
 import Julie from "../public/assets/projects/julie.png";
 import netflixImg from "../public/assets/projects/netflix.png";
 import nikeImg from "../public/assets/projects/nike.png";
-import twitchImg from "../public/assets/projects/twitch.jpg";
+import docsImg from "../public/assets/projects/docs.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -32,6 +32,18 @@ const Projects = () => {
             projectUrl="/julie"
             tech="React JS"
             liveUrl="https:lab.julies.io"
+          />
+          <ProjectItem
+            title="Docs"
+            backgroundImg={docsImg}
+            projectUrl="/docs"
+            tech="React JS / Node JS"
+            liveUrl="https://docs-clone-one.vercel.app/"
+            GithubUrl="https://github.com/mahesh9932/docs-clone"
+            username="test@gmail.com"
+            password="Test@123"
+            username2="test2@gmail.com"
+            password2="Test@123"
           />
           <ProjectItem
             title="Nike Landing"
