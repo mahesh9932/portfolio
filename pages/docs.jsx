@@ -56,8 +56,9 @@ const property = () => {
             Nginx, a robust and high-performance proxy server, has been
             seamlessly integrated into the architecture. This incorporation not
             only facilitates a secure HTTPS connection but also enhances the
-            platform's resilience. SSL certificates, crucial for ensuring data
-            security, are seamlessly managed and signed using Certbot. <br />
+            platform&apos;s resilience. SSL certificates, crucial for ensuring
+            data security, are seamlessly managed and signed using Certbot.{" "}
+            <br />
             <br />
             This amalgamation of cutting-edge technologies and meticulous design
             choices ensures a secure, scalable, and user-friendly environment

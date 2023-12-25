@@ -17,6 +17,18 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
+            title="Docs"
+            backgroundImg={docsImg}
+            projectUrl="/docs"
+            tech="React JS / Node JS"
+            liveUrl="https://docs-clone-one.vercel.app/"
+            GithubUrl="https://github.com/mahesh9932/docs-clone"
+            username="test@gmail.com"
+            password="Test@123"
+            username2="test2@gmail.com"
+            password2="Test@123"
+          />
+          <ProjectItem
             title="Netflix Clone"
             backgroundImg={netflixImg}
             projectUrl="/netflix"
@@ -33,18 +45,7 @@ const Projects = () => {
             tech="React JS"
             liveUrl="https:lab.julies.io"
           />
-          <ProjectItem
-            title="Docs"
-            backgroundImg={docsImg}
-            projectUrl="/docs"
-            tech="React JS / Node JS"
-            liveUrl="https://docs-clone-one.vercel.app/"
-            GithubUrl="https://github.com/mahesh9932/docs-clone"
-            username="test@gmail.com"
-            password="Test@123"
-            username2="test2@gmail.com"
-            password2="Test@123"
-          />
+
           <ProjectItem
             title="Nike Landing"
             backgroundImg={nikeImg}
