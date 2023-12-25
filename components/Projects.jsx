@@ -17,6 +17,16 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
+            title="Netflix Clone"
+            backgroundImg={netflixImg}
+            projectUrl="/netflix"
+            tech="Next JS"
+            username="test@gmail.com"
+            password="test123"
+            liveUrl="https://netflix-clone-nine-azure.vercel.app/"
+            GithubUrl="https://github.com/mahesh9932/netflix-clone"
+          />
+          <ProjectItem
             title="Docs"
             backgroundImg={docsImg}
             projectUrl="/docs"
@@ -27,16 +37,6 @@ const Projects = () => {
             password="Test@123"
             username2="test2@gmail.com"
             password2="Test@123"
-          />
-          <ProjectItem
-            title="Netflix Clone"
-            backgroundImg={netflixImg}
-            projectUrl="/netflix"
-            tech="Next JS"
-            username="test@gmail.com"
-            password="test123"
-            liveUrl="https://netflix-clone-nine-azure.vercel.app/"
-            GithubUrl="https://github.com/mahesh9932/netflix-clone"
           />
           <ProjectItem
             title="Threat Analyzer"
