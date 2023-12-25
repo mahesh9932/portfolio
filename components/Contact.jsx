@@ -21,6 +21,7 @@ const Contact = () => {
             I am available for freelance or full-time positions. Contact me and
             let&apos;s talk.
           </p>
+          <p className="font-sans">PH: +1 513 580 1312</p>
         </div>
 
         <div>
